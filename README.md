@@ -1,34 +1,32 @@
-
-🚗 EV Vehicle Demand Prediction – Final Project Submission
-This project is developed as part of the AICTE Virtual Internship – July 2025 Batch under the mentorship of RGS-AI. The objective is to analyze electric vehicle (EV) adoption trends and predict future EV demand using machine learning techniques. The project covers data preprocessing, model building, evaluation, and deployment using Flask.
-
+🔋 EV Vehicle Demand Prediction – Final Project
+This project is part of the AICTE Virtual Internship (July 2025) under the guidance of RGS-AI. The goal of the project is to predict the demand for electric vehicles (EVs) using machine learning techniques.
 
 
-📁 Project Structure
+✅ What I Have Done
+Uploaded and explored the EV dataset
 
-EV-Vehicle-Demand-Prediction/
-│
-├── Week3_EV_Demand_Prediction.ipynb      # Final project notebook (Week 1–3)
-├── ev_dataset.csv                        # Raw dataset
-├── preprocessed.csv                      # Cleaned/preprocessed data
-├── model.pkl                             # Trained machine learning model
-├── app.py                                # Flask app for prediction
-├── requirements.txt                      # Python dependencies
-├── ev_car_factory.jpg                    # Supporting image
-└── README.md                             # Project overview
+Cleaned and preprocessed the data
+
+Built and trained a machine learning model to predict EV demand
+
+Evaluated the model performance
+
+Deployed the model using Flask (app.py)
 
 
 
-📌 Improvisations Done
-Integrated Week 1 and Week 2 tasks into a unified final project notebook.
+🛠️ Tools and Technologies Used
+Python
 
-Cleaned and preprocessed raw EV data.
+Pandas, NumPy, Matplotlib, Seaborn
 
-Built and evaluated predictive models for EV demand forecasting.
+Scikit-learn (for model building)
 
-Deployed model using Flask via app.py.
+Flask (for deployment)
 
-Added visual elements (image) for better presentation.
+Google Colab (for development)
 
-Maintained modular structure with well-commented code.
+GitHub (for version control)
+
+
 
