@@ -1,48 +1,34 @@
-🚗 EV Vehicle Demand Prediction – AICTE Virtual Internship Final Project
-🔍 Overview
-This project aims to predict the demand for Electric Vehicles (EVs) using machine learning techniques. It was developed as part of the AICTE Virtual Internship (July 2025) under the mentorship of RGS-AI.
 
-🧠 Problem Statement
-To analyze EV market trends and forecast EV adoption rates using historical data. The goal is to assist policymakers, manufacturers, and infrastructure providers with demand-based decisions.
+🚗 EV Vehicle Demand Prediction – Final Project Submission
+This project is developed as part of the AICTE Virtual Internship – July 2025 Batch under the mentorship of RGS-AI. The objective is to analyze electric vehicle (EV) adoption trends and predict future EV demand using machine learning techniques. The project covers data preprocessing, model building, evaluation, and deployment using Flask.
 
-📁 Files Included
-Week3_EV_Demand_Prediction.ipynb – Final Jupyter Notebook containing data preprocessing, EDA, model training, evaluation, and results.
 
-ev_dataset.csv – Raw dataset used for model development.
 
-preprocessed.csv – Cleaned and preprocessed dataset.
+📁 Project Structure
 
-model.pkl – Saved trained ML model.
+EV-Vehicle-Demand-Prediction/
+│
+├── Week3_EV_Demand_Prediction.ipynb      # Final project notebook (Week 1–3)
+├── ev_dataset.csv                        # Raw dataset
+├── preprocessed.csv                      # Cleaned/preprocessed data
+├── model.pkl                             # Trained machine learning model
+├── app.py                                # Flask app for prediction
+├── requirements.txt                      # Python dependencies
+├── ev_car_factory.jpg                    # Supporting image
+└── README.md                             # Project overview
 
-app.py – Flask-based web application for real-time EV demand prediction.
 
-requirements.txt – Python dependencies required to run the project.
 
-ev_car_factory.jpg – Image used for visualization purposes.
+📌 Improvisations Done
+Integrated Week 1 and Week 2 tasks into a unified final project notebook.
 
-🛠️ Tech Stack
-Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn)
+Cleaned and preprocessed raw EV data.
 
-Google Colab
+Built and evaluated predictive models for EV demand forecasting.
 
-Machine Learning (Linear Regression, Decision Tree, etc.)
+Deployed model using Flask via app.py.
 
-Flask (for web app)
+Added visual elements (image) for better presentation.
 
-GitHub (Version control)
-
-✅ Outcome
-Successful preprocessing and visualization of EV adoption trends.
-
-Model trained and evaluated to predict demand with high accuracy.
-
-Deployed an interactive web app using Flask.
-
-📚 Internship Details
-Organization: AICTE, RGS-AI
-
-Duration: July 2025
-
-Track: EV Vehicle Charge Demand Prediction
-
+Maintained modular structure with well-commented code.
 
